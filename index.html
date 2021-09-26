@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<head>
+
+        <link rel="stylesheet" href="C:\Users\FRAGRANCE\Desktop\survey-form\style.css">
+        <meta charset="utf-8"  >
+        <title>survey-form</title>
+</head>
+
+
+
+  <header>
+
+  <style>
+body {
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+    </style>
+
+ <h1 id="title" class="text-center" >SAMSUNG SURVEY FORM</h1>
+<p id="description" class="description-center">we give more importance to the customer likes</p>
+  </header>
+
+<form id="survey-form">
+  <div class="form-group" data-tilt>
+  <label id="name-label" for="name" >Name <br></label>
+  <input
+         type="text"
+         id="name"
+         Name="name"
+         placeholder="Enter your name"
+         class="form-control"
+         required
+         >
+  </div>
+
+  <div class="form-group" >
+   <label id="email-label"
+          for="Email">Email<br> </label>
+   <input type="email"
+           id="email"
+           name="Email"
+           placeholder="Enter your email id"
+           class="form-control"
+          required
+          >
+  </div>
+     <div class="form-group">
+       <label id="number-label" for="number" >Age (optional)<span class="clue"></span><br></label>
+    <input
+           type="number"
+           id="number"
+           name="Age"
+           min="10"
+           max="99"
+           class="form-control"
+           placeholder="Age"
+           required
+           >
+  </div>
+
+  <div class="form-group" >
+    <p>From how many years you are using samsung mobile ?</p>
+
+     <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value >Select </option>
+        <option value="Less than a year">Less than a year</option>
+        <option value="2 years">2 years</option>
+        <option value="3 years">3 years</option>
+        <option value="More than 5 years">More than 5 years</option>
+       <option value="Other" >Other</option>
+      </select>
+    </div>
+
+
+
+  <div class="form-group">
+    <p>Would you recommend samsung mobile to a friend ?</p>
+    <label>
+    <input
+           type="radio"
+           name="user-recommended"
+           value="Definetly"
+           class="input-radio"
+           checked
+           >Definitely
+    </label>
+    <br>
+
+    <label>
+    <input
+           type="radio"
+           name="user-recommended"
+           value="Maybe"
+           class="input-radio"
+           checked
+           >Maybe
+    </label>
+    <br>
+    <label>
+     <input
+           type="radio"
+           name="user-recommended"
+           value="Not sure"
+           class="input-radio"
+           checked
+           >Note sure
+    </label>
+
+    <div class="form-group">
+      <p>What is your favourite feature of samsung mobile ? </p>
+      <select     class="form-control" id="dropdown" require>
+        <option disabled selected value>Select an option</option>
+        <option value="Display">Display</option>
+        <option value="User interface">User interface</option>
+        <option value="battery life">Battery life</option>
+        <option value="sound quality">Sound quality</option>
+        <option value="Design">Design</option>
+      </select>
+
+   <div class="form-group">
+     <p>What would you like to see improved ? (check all that apply)</p>
+   <label>
+     <input
+            type="checkbox"
+            name="prefer"
+            value="Speakers"
+            class="input-checkbox"
+
+            >Speakers
+     </label>
+     <br>
+     <label>
+     <input
+            type="checkbox"
+            name="prefer"
+            value="User interface"
+            class="input-checkbox"
+            >User interface
+     </label>
+     <br>
+     <label>
+     <input
+            type="checkbox"
+            name="prefer"
+            value="Battery life"
+            class="input-checkbox"
+            >Battery life
+     </label>
+     <br>
+     <label>
+     <input
+            type="checkbox"
+            name="prefer"
+            value="Cost worthiness"
+            class="input-checkbox"
+            >Cost worthiness
+     </label>
+     <br>
+     <label>
+     <input
+            type="checkbox"
+            name="prefer"
+            value="Build quality"
+            class="input-checkbox"
+            >Build quality
+     </label>
+     <br>
+
+     <label>
+     <input
+            type="checkbox"
+            name="prefer"
+            value="Design"
+            class="input-checkbox"
+            >Design
+     </label>
+     <br>
+     <label>
+     <input
+            type="checkbox"
+            name="prefer"
+            value="Productivity"
+            class="input-checkbox"
+            >Productivity
+     </label>
+     </div>
+
+     <div class="form-group">
+       <p>Any comments or suggestions ?</p>
+       <textarea
+              name="comment"
+              placeholder="Enter your comments or suggestions here"
+              id="comments"
+              class="input-textarea"
+                 ></textarea>
+
+       <div class="form-group">
+         <button
+                type="submit"
+                id="submit"
+                class="submit-button"
+          >
+           Submit
+         </button>
+
+       </div>
+     </form>
+   </div>
+
+  </body>
